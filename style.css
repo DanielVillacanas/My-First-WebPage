@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+*{
+    font-family: 'Roboto';
+}
+
+h1{
+  font-size:9em;
+  text-align:center;
+}
+
+h2{
+  font-size:5em;
+  text-align:center;
+}
+h3{
+  font-size:4.2em;
+  text-align:center;
+  line-height:1em;
+}
+h4{
+   font-size:1.5em;
+   letter-spacing:0.4em;
+   line-height:1em;
+}
+h5{
+  font-size:1.2em;
+  line-height:1em;
+}
+html,
+body {
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.navegador{
+    background-color: rgb(25, 33, 41);
+    height: 30px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegador a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header{
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-size: cover;
+}
+#titulo h1{
+    font-size: 9em;
+    text-transform: uppercase;
+    text-align:center;
+    position:relative;
+    bottom:100px;
+}
+#titulo h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+    position:relative;
+    bottom:230px;
+    
+}
+#quoute {
+  position:relative;
+  left:5%;
+  bottom:100px;
+}
+.seccion1{
+    background-color: rgb(25, 33, 41);
+    align-items: center;
+    margin-top: 0;
+    display:flex;
+    justify-content: space-around;
+}
+.encabezado h3{
+    color: white;
+    font-size:4.2em;
+    text-align:center;
+    line-height:1em;
+}
+.encabezado {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezado p{
+    color: white;
+    text-align:center;
+    line-height:1em;
+     position:relative;
+     bottom:50px;
+}
+.encabezado a{
+    color: white;
+    text-decoration: none;
+    background-color:rgb(67, 163, 230);
+    text-align:center;
+    font-size: 2em;
+    width: 100px;
+    position:relative;
+    bottom: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#encabezado-s1{
+  text-align:center;
+}
+
+.seccion2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom:100px;
+}
+.seccion2 article{
+  border-style: solid;
+  border-width:2px;
+  border-radius: 20px;
+  border-color:#eee;
+  box-sizing:border-box;
+  box-shadow:2px 2px 10px 0 #eee;
+  Margin:50px 5% 0 5%;
+  text-align:center;
+  width:650px;
+}
+.seccion2 article img{
+  margin-top:50px
+}
+.seccion2 article h4{
+  font-size:1.5em;
+  letter-spacing:0.4px;
+  line-height:1em;
+}
+.seccion2 article p{
+  margin-bottom:20px
+}
+
+.seccion3{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  background-color:rgb(25, 33, 41);
+}
+.seccion3 header{
+  color:white;
+  text-align:center;
+  margin:20px auto 30px auto;
+
+}
+.seccion3 header h3{
+   margin-top:50px;
+   margin-bottom:30px;
+}
+.seccion3 header p{
+   max-width:850px;
+}
+.seccion3 div{
+  display:flex;
+  justify-content: space-around;
+}
+.team-members{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    color:white;
+    min-width:600px;
+    margin-bottom:100px;
+}
+.team-members img{
+  width:350x;
+  height:280px;
+}
+
+
+
+.table-div{
+  
+}
+.table-div table{
+  margin:0 auto 40px auto;
+  font-size:1.5em;
+}
+
+.schedule-table th,td{
+    border-bottom-style:solid ;
+  border-bottom-weight:1px;
+  border-bottom-color:black;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-left:30px;
+  text-align:center;
+}
+
+.reserve form{
+  width:40%;
+  margin:18px auto 0 auto;
+  font-size:1.5em;
+  text-align:center;
+}
+.reserve form label{
+  line-height:15px;
+  margin:5px;
+}
+.reserve form input,select{
+  height:40px;
+  outline:none;
+  padding: 3px 3px 3px 3px;
+  width:100%;
+  margin-bottom:15px;
+}
+#boton{
+  border-weight:1px;
+  border-style:solid;
+  border-color:black;
+  color:black;
+  background-color:white;
+  padding:9px 9px 9px 9px;
+  margin-top:10px;
+  width:20%;
+}
+
+
+
+.footer{
+  background-color:rgb(25, 33, 41);
+  color:white;
+  display:flex;
+  justify-content:space-between;
+}
+.footer-div{
+  position:relative;
+  left:3%;
+}
+.iframe{
+  height: 375px;
+  width: 60%;
+}
+.links{
+  list-style:none;
+  position:relative;
+  left:-20%;
+  top:-2%
+}
+.links a{
+  text-decoration: none;
+  color:rgb(67, 163, 230);
+}
+
+
+
+
